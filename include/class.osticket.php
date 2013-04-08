@@ -345,13 +345,21 @@ class osTicket {
     }
 
     function get_path_info() {
-        if(isset($_SERVER['PATH_INFO']))
+        if(isset($_SERVER['PATH_INFO']) && !empty($_SERVER['PATH_INFO']))
             return $_SERVER['PATH_INFO'];
 
-        if(isset($_SERVER['ORIG_PATH_INFO']))
+        if(isset($_SERVER['ORIG_PATH_INFO']) && !empty($_SERVER['ORIG_PATH_INFO']))
             return $_SERVER['ORIG_PATH_INFO'];
 
-        //TODO: conruct possible path info.
+    	$request_uri = preg_replace('@\?.*$@', '', $_SERVER['REQUEST_URI']);
+		
+		if (strpos($request_uri, $_SERVER['SCRIPT_NAME']) !== false) {
+			$guessed_pathinfo = preg_replace('#^'.preg_quote($_SERVER['SCRIPT_NAME']).'#', '', $request_uri);
+		} else {
+			$guessed_pathinfo = preg_replace('#^'.preg_quote(preg_replace('@/([^/]+)$@', '', $_SERVER['SCRIPT_NAME'])).'#', '', $request_uri);
+		}
+		if (!empty($guessed_pathinfo))
+			return $guessed_pathinfo;
 
         return null;
     }
