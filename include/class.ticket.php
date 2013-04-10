@@ -819,7 +819,7 @@ class Ticket {
 
         //Alert admin...this might be spammy (no option to disable)...but it is helpful..I think.
         $alert='Max. open tickets reached for '.$this->getEmail()."\n"
-              .'Open ticket: '.$client->getNumOpenTickets()."\n"
+              .'Open tickets: '.$client->getNumOpenTickets()."\n"
               .'Max Allowed: '.$cfg->getMaxOpenTickets()."\n\nNotice sent to the user.";
 
         $ost->alertAdmin('Overlimit Notice', $alert);
