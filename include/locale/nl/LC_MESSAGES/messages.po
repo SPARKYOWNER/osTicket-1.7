@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osTicket 1.7.0\n"
 "POT-Creation-Date: 2013-04-08 16:24+0100\n"
-"PO-Revision-Date: 2013-04-10 15:59+0100\n"
+"PO-Revision-Date: 2013-04-11 09:53+0100\n"
 "Last-Translator: Tomas Hastings <tomas@hastings.nl>\n"
 "Language-Team:  <tomas@hastings.nl>\n"
 "Language: nl_NL\n"
@@ -664,7 +664,7 @@ msgstr "Unexpected or invalid data received"
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/api.tickets.php:45
 #, php-format
 msgid "Invalid file type (ext) for %s"
-msgstr "Ongeldige bestandstype (ext) voor %s"
+msgstr "Ongeldig bestandstype (ext) voor %s"
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/api.tickets.php:48
 #, php-format
