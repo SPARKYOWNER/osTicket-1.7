@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osTicket 1.7.0\n"
 "POT-Creation-Date: 2013-04-08 16:24+0100\n"
-"PO-Revision-Date: 2013-04-11 09:53+0100\n"
+"PO-Revision-Date: 2013-04-11 14:08+0100\n"
 "Last-Translator: Tomas Hastings <tomas@hastings.nl>\n"
 "Language-Team:  <tomas@hastings.nl>\n"
 "Language: nl_NL\n"
@@ -336,7 +336,7 @@ msgstr "Uitklapbare variabelen (Zie wiki)"
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/ajax.content.php:65
 msgid "Help topic"
-msgstr "Hulponderwerp"
+msgstr "Afdeling"
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/ajax.content.php:66
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/ajax.reports.php:31
@@ -445,7 +445,7 @@ msgstr "Medewerkers"
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/staff/ticket-view.inc.php:262
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/staff/tickets.inc.php:632
 msgid "Help Topic"
-msgstr "Hulponderwerp"
+msgstr "Afdeling"
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/ajax.reports.php:76
 msgid "Staff Member"
@@ -1561,7 +1561,7 @@ msgstr "Afdelingen"
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/class.nav.php:268
 msgid "Support&nbsp;Center&nbsp;Home"
-msgstr "Beginpagina van het ondersteuningscentrum"
+msgstr "Beginpagina"
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/class.nav.php:272
 msgid "Open&nbsp;New&nbsp;Ticket"
@@ -2485,7 +2485,7 @@ msgstr "Alle categorieën"
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/staff/faq.inc.php:118
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/staff/helptopics.inc.php:51
 msgid "Help Topics"
-msgstr "Hulponderwerpen"
+msgstr "Afdelingen"
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/client/faq.inc.php:32
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/staff/faq-category.inc.php:14
@@ -2536,7 +2536,7 @@ msgstr "Zoeken"
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/staff/faq-categories.inc.php:33
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/staff/tickets.inc.php:634
 msgid "All Help Topics"
-msgstr "Alle hulponderwerpen"
+msgstr "Alle afdelingen"
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/client/knowledgebase.inc.php:79
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/client/tickets.inc.php:94
@@ -2640,7 +2640,7 @@ msgstr "Ext."
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/client/open.inc.php:60
 msgid "Select a Help Topic"
-msgstr "Selecteer een hulponderwerp"
+msgstr "Selecteer een afdeling"
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/client/open.inc.php:68
 msgid "General Inquiry"
@@ -2768,7 +2768,7 @@ msgstr ""
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/client/thankyou.inc.php:19
 msgid "Support Team"
-msgstr "Ondersteuningsteam"
+msgstr "Het ondersteuningsteam"
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/client/tickets.inc.php:11
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/client/tickets.inc.php:21
@@ -4234,8 +4234,7 @@ msgstr "Selecteer bestanden om te uploaden."
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/staff/faq.inc.php:118
 msgid "Check all help topics related to this FAQ."
 msgstr ""
-"Selecteer alle hulponderwerpen die gerelateerd zijn aan deze veelgestelde "
-"vraag"
+"Selecteer alle afdelingen die gerelateerd zijn aan deze veelgestelde vraag"
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/staff/filter.inc.php:10
 msgid "Update Filter"
@@ -4888,12 +4887,12 @@ msgstr "Mijn voorkeuren"
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/staff/helptopic.inc.php:6
 msgid "Update Help Topic"
-msgstr "Hulponderwerp bijwerken"
+msgstr "Afdeling bijwerken"
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/staff/helptopic.inc.php:14
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/staff/helptopics.inc.php:54
 msgid "Add New Help Topic"
-msgstr "Nieuw hulponderwerp toevoegen"
+msgstr "Nieuwe afdeling toevoegen"
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/staff/helptopic.inc.php:16
 msgid "Add Topic"
@@ -4901,7 +4900,7 @@ msgstr "Onderwerp toevoegen"
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/staff/helptopic.inc.php:34
 msgid "Help Topic Information"
-msgstr "Hulponderwerp informatie"
+msgstr "Afdelingsinformatie"
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/staff/helptopic.inc.php:41
 msgid "Topic:"
@@ -4937,36 +4936,33 @@ msgstr ""
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/staff/helptopic.inc.php:208
 msgid "Internal notes about the help topic."
-msgstr "Interne notities over het hulponderwerp."
+msgstr "Interne notities over de afdeling."
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/staff/helptopics.inc.php:45
 msgid "help topics"
-msgstr "hulponderwerpen"
+msgstr "afdelingen"
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/staff/helptopics.inc.php:47
 msgid "No help topic found!"
-msgstr "Geen hulponderwerp gevonden!"
+msgstr "Geen onderwerpen gevonden!"
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/staff/helptopics.inc.php:107
 msgid "No help topics found"
-msgstr "Geen hulponderwerpen gevonden!"
+msgstr "Geen onderwerpen gevonden!"
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/staff/helptopics.inc.php:132
 msgid "Are you sure want to <b>enable</b> selected help topics?"
 msgstr ""
-"Weet je zeker dat je de geselecteerde hulponderwerpen wilt <b>inschakelen</"
-"b>?"
+"Weet je zeker dat je de geselecteerde onderwerpen wilt <b>inschakelen</b>?"
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/staff/helptopics.inc.php:135
 msgid "Are you sure want to <b>disable</b>  selected help topics?"
 msgstr ""
-"Weet je zeker dat je de geselecteerde hulponderwerpen wilt <b>uitschakelen</"
-"b>?"
+"Weet je zeker dat je de geselecteerde onderwerpen wilt <b>uitschakelen</b>?"
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/staff/helptopics.inc.php:138
 msgid "Are you sure you want to DELETE selected help topics?"
-msgstr ""
-"Weet je zeker dat je de geselecteerde hulponderwerpen wilt VERWIJDEREN?"
+msgstr "Weet je zeker dat je de geselecteerde onderwerpen wilt VERWIJDEREN?"
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/staff/helptopics.inc.php:139
 msgid "Deleted topics CANNOT be recovered."
@@ -6499,7 +6495,7 @@ msgstr "Overig"
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/staff/ticket-edit.inc.php:78
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/staff/ticket-open.inc.php:103
 msgid "Select Help Topic"
-msgstr "Selecteer hulponderwerp"
+msgstr "Selecteer afdeling"
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/include/staff/ticket-edit.inc.php:93
 msgid "Priority Level"
@@ -7936,8 +7932,7 @@ msgstr "Statistieken"
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/scp/dashboard.php:60
 msgid "Statistics of tickets organized by department, help topic, and staff."
 msgstr ""
-"Statistieken van tickets gesorteerd op afdeling, hulponderwerp en "
-"medewerkers."
+"Statistieken van tickets gesorteerd op afdeling, afdeling en medewerkers."
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/scp/departments.php:20
 msgid "Unknown or invalid department ID."
@@ -8326,11 +8321,11 @@ msgstr "Onbekende actie. - Haal technische ondersteuning"
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/scp/helptopics.php:21
 msgid "Unknown or invalid help topic ID."
-msgstr "Onbekende of ongeldige hulponderwerp ID."
+msgstr "Onbekende of ongeldige onderwerp ID."
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/scp/helptopics.php:27
 msgid "Unknown or invalid help topic."
-msgstr "Onbekende of ongeldige hulponderwerp."
+msgstr "Onbekende of ongeldige onderwerp."
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/scp/helptopics.php:29
 msgid "Help topic updated successfully"
@@ -8338,16 +8333,16 @@ msgstr "Hulponderwerp succesvol gewijzigd"
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/scp/helptopics.php:31
 msgid "Error updating help topic. Try again!"
-msgstr "Fout bij wijzigen hulponderwerp. Probeer het opnieuw!"
+msgstr "Fout bij wijzigen onderwerp. Probeer het opnieuw!"
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/scp/helptopics.php:36
 msgid "Help topic added successfully"
-msgstr "Hulponderwerp succesvol toegevoegd"
+msgstr "Onderwerp succesvol toegevoegd"
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/scp/helptopics.php:39
 msgid "Unable to add help topic. Correct error(s) below and try again."
 msgstr ""
-"Hulponderwerp kon niet toegevoegd worden. Corrigeer onderstaande fout(en) en "
+"Onderwerp kon niet toegevoegd worden. Corrigeer onderstaande fout(en) en "
 "probeer het opnieuw."
 
 #: /Users/tomashastings/Downloads/osTicket-1.7-develop/scp/helptopics.php:44
